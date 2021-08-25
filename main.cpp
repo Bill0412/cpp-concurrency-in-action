@@ -1,9 +1,9 @@
 #include <iostream>
 
-#include "thread_guard.h"
+#include "thread_in_containers.h"
 
 int main() {
-    thread_guard::f();
+    thread_in_containers::test();
 
     return 0;
 }
