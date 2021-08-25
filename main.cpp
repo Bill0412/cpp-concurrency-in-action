@@ -1,9 +1,9 @@
 #include <iostream>
 
-#include "parallel_accumulate.h"
+#include "thread_guard.h"
 
 int main() {
-    parallel_accumulate::test();
+    thread_guard::f();
 
     return 0;
 }
